@@ -74,3 +74,4 @@ let g:go_highlight_structs = 1
 exe "set rtp+=".globpath($GOPATH, "src/github.com/nsf/gocode/vim")
 autocmd FileType go :highlight goErr cterm=bold ctermfg=214
 autocmd FileType go :match goErr /\<err\>/
+
