@@ -10,6 +10,7 @@ export PATH
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:/usr/local/go/bin
+export TERM="xterm-256color"
 
 # 色を使用
 autoload -Uz colors
