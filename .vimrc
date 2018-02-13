@@ -24,6 +24,7 @@ set wrap        "長い行は折り返す
 set undolevels=100 "undoできる数
 set autochdir   "ファイルを開いたフォルダへカレントを移動
 set cursorline "横ラインを引く
+noremap!  
 
 "ハイフンを境界文字から外す
 set iskeyword+=-
